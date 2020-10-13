@@ -6,8 +6,8 @@ let trueItems=["lamp","notebook","book","picture","blanket","waterbottle","speak
 let falseItems =["couch","dining room table","chair","desk","hand santizer"];
 
 //random item in the true array 
-// let key =  trueItems[Math.floor(Math.random()*trueItems.length)];
-let key = "lamp";
+let key =  trueItems[Math.floor(Math.random()*trueItems.length)];
+
 
 const name = readlineSync.question('Welcome, guest... what is your name? ');
 
